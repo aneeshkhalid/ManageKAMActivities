@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-electron/
+release/
+out/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+dev.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V4
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Electron build temp
+.electron-gyp/
+
+# Runtime data (DB, attachments, backups — generated at runtime)
+data/
